@@ -22,7 +22,7 @@ const config: StorybookConfig = {
     if (configType === 'PRODUCTION') {
       // Set the base path for GitHub Pages
       config.base = process.env.NODE_ENV === 'production' 
-        ? '/your-repository-name/' // Replace with your actual repo name
+        ? '/chakra-storybook/'
         : '/';
     }
     return config;
