@@ -1,0 +1,9 @@
+var s={exports:{}},r={};/**
+ * @license React
+ * react-jsx-runtime.production.js
+ *
+ * Copyright (c) Meta Platforms, Inc. and affiliates.
+ *
+ * This source code is licensed under the MIT license found in the
+ * LICENSE file in the root directory of this source tree.
+ */var d;function m(){if(d)return r;d=1;var o=Symbol.for("react.transitional.element"),a=Symbol.for("react.fragment");function n(u,e,t){var l=null;if(t!==void 0&&(l=""+t),e.key!==void 0&&(l=""+e.key),"key"in e){t={};for(var i in e)i!=="key"&&(t[i]=e[i])}else t=e;return e=t.ref,{$$typeof:o,type:u,key:l,ref:e!==void 0?e:null,props:t}}return r.Fragment=a,r.jsx=n,r.jsxs=n,r}var p;function f(){return p||(p=1,s.exports=m()),s.exports}var v=f();const c=({primary:o=!1,size:a="medium",backgroundColor:n,label:u,...e})=>{const t=o?"storybook-button--primary":"storybook-button--secondary";return v.jsx("button",{type:"button",className:["storybook-button",`storybook-button--${a}`,t].join(" "),style:{backgroundColor:n},...e,children:u})};try{c.displayName="Button",c.__docgenInfo={description:"Primary UI component for user interaction",displayName:"Button",props:{primary:{defaultValue:{value:"false"},description:"Is this the principal call to action on the page?",name:"primary",required:!1,type:{name:"boolean"}},backgroundColor:{defaultValue:null,description:"What background color to use",name:"backgroundColor",required:!1,type:{name:"string"}},size:{defaultValue:{value:"medium"},description:"How large should the button be?",name:"size",required:!1,type:{name:"enum",value:[{value:'"small"'},{value:'"medium"'},{value:'"large"'}]}},label:{defaultValue:null,description:"Button contents",name:"label",required:!0,type:{name:"string"}},onClick:{defaultValue:null,description:"Optional click handler",name:"onClick",required:!1,type:{name:"(() => void)"}}}}}catch{}export{c as B,v as j};
